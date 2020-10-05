@@ -9,3 +9,29 @@
     margin: 0em;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
 }
+
+/*LINEAS PARTE SUPERIOR*/
+.linea-horiz {
+    position: absolute;
+    height: 4px;
+    width: 400px;
+    background: gray;
+    margin-top: 30px;
+    box-shadow: inset 1px 1px 2px 1px rgba(150, 150, 150, 150);
+}
+
+.linea-vert1 {
+    position: absolute;
+    background: gray;
+    height: 30px;
+    width: 4px;
+    margin-left: 35px;
+}
+
+.linea-vert2 {
+    position: absolute;
+    background: gray;
+    height: 30px;
+    width: 4px;
+    margin-left: 364px;
+}
