@@ -80,3 +80,40 @@
     left: 37px;
     color: #b3b3b3;
 }
+
+/*NOMBRE DE GAMEBOY*/
+.text-consola {
+    display: flex;
+    position: relative;
+    top: 340px;
+    left: 40px;
+    color: #283593;
+    font-weight: bold;
+    font-size-adjust: 50;
+}
+
+.texto-gameboy {
+    font-family: "Open Sans";
+    font-size: 28px;
+    font-style: oblique;
+    font-stretch: ultra-condensed;
+    margin: 0;
+    margin-top: 11px;
+    margin-left: 8px;
+}
+
+.texto-nintendo {
+    font-family: sans-serif;
+    font-size: 19px;
+    margin: 0;
+    margin-top: 19px;
+    margin-left: -12px ;
+}
+
+.texto-tm {
+    font-family: sans-serif;
+    font-size: 10px;
+    margin: 0;
+    margin-top: 27px;
+    margin-left: 1px;
+}
