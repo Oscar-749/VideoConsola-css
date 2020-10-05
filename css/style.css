@@ -117,3 +117,67 @@
     margin-top: 27px;
     margin-left: 1px;
 }
+
+/*BOTONES A y B*/
+.botones-fondo {
+    position: absolute;
+    background: #dfdfdf;
+    height: 60px;
+    width: 130px;
+    top: 420px;
+    left: 245px;
+    border-radius: 30px;
+    box-shadow: inset 1px 15px 17px 1px rgb(163, 162, 162),
+        /*sombra*/
+        inset -30px -37px 20px 10px rgb(238, 237, 237);
+    /*obalo*/
+    transform: rotate(-20deg);
+}
+
+.boton-A {
+    position: relative;
+    height: 44px;
+    width: 44px;
+    top: 8px;
+    left: 79px;
+    background: red;
+    border-radius: 100%;
+    box-shadow: -1px -1px 2px 0px #353236;
+}
+
+.boton-B {
+    position: relative;
+    height: 44px;
+    width: 44px;
+    top: -35px;
+    left: 10px;
+    background: red;
+    border-radius: 100%;
+    box-shadow: -1px -1px 2px 0px #353236;
+}
+
+.text-A {
+    position: absolute;
+    top: 47px;
+    left: 27px;
+    color: rgb(81, 80, 122);
+    font-family: "Nova Square";
+    font-size: 15px;
+    font-style: initial;
+    font-stretch: ultra-condensed;
+    font-weight: bold;
+    justify-content: left;
+}
+
+.text-B {
+    position: absolute;
+    top: 47px;
+    left: 100px;
+    color: rgb(81, 80, 122);
+    font-family: "Nova Square";
+    font-size: 15px;
+    font-style: initial;
+    font-stretch: ultra-condensed;
+    font-weight: bold;
+    justify-content: left;
+}
