@@ -1,0 +1,11 @@
+.carcasa {
+    position: absolute;
+    display: block;
+    margin: 20px;
+    height: 600px;
+    width: 400px;
+    background: rgb(224, 218, 218);
+    border-radius: 10px 10px 60px 10px;
+    margin: 0em;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+}
