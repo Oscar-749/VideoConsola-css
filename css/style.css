@@ -107,7 +107,7 @@
     font-size: 19px;
     margin: 0;
     margin-top: 19px;
-    margin-left: -12px ;
+    margin-left: -12px;
 }
 
 .texto-tm {
@@ -213,4 +213,46 @@
     font-weight: bold;
     top: 1px;
     left: 74px;
+}
+
+ /*FLECHAS DIRECCION*/
+.flechas {
+    display: block;
+    position: absolute;
+    margin-top: 90px;
+}
+
+.fondo-direccion {
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    top: 269px;
+    left: 25px;
+    border-radius: 100%;
+    box-shadow: inset 0px 0px 12px 10px rgb(231, 230, 230);
+}
+
+.vertical {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 93px;
+    top: 279px;
+    left: 68px;
+    background: #444;
+    background: black;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 5px 1px rgb(48, 48, 48), 0px 1px 2px 1px black;
+}
+
+.horizontal {
+    content: "";
+    position: absolute;
+    width: 93px;
+    height: 30px;
+    top: 310px;
+    left: 35px;
+    background: black;
+    border-radius: 5px;
+    box-shadow: inset -1px -1px 5px 1px rgb(48, 48, 48), 1px 1px 2px 1px black;
 }
